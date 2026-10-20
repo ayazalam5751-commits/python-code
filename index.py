@@ -159,5 +159,9 @@
 # a=b=c=99
 # print(a,b,c)
 
+for i in range(1,5):
+  for j in range(1,5):
+    print(i,j)
+
 print(__name__)
 
