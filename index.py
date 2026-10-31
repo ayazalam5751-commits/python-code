@@ -159,9 +159,117 @@
 # a=b=c=99
 # print(a,b,c)
 
-for i in range(1,5):
-  for j in range(1,5):
-    print(i,j)
+# for i in range(1,5):
+#   for j in range(1,5):
+#     print(i,j)
 
-print(__name__)
+# student = "rahul:20:bca"
+# student.partition(":")
+# name,details,seperator=student.partition(":")
+# print(name)
+# print(age)
+# print(details)
+
+# for i in range(10,2,-3):
+#     print(i)
+
+# for i in range(1,11):
+#     print(i*2)
+
+# a=1
+# while a<=10:
+#     print(a*2)
+#     a =a+1
+
+# for i in range(1,19):
+#     if i%2!=0:
+        # print(i)
+
+i = 10
+count = 0
+
+# while i < 20:
+#     if i % 2 != 0:
+#         # print(i)
+#         count += 1
+#     i += 1
+
+# print(count)
+
+# Find the length of a given string without using the len() function
+
+# s = input('enter the string')
+
+# counter = 0
+
+# for i in s:
+#   counter += 1
+
+# print('length of string is',counter)
+
+
+# Extract username from a given email. 
+# Eg if the email is nitish24singh@gmail.com 
+# then the username should be nitish24singh
+
+# s = input('enter the email')
+
+# pos = s.index('@')
+# print(s[0:pos])
+
+# Count the frequency of a particular character in a provided string. 
+# Eg 'hello how are you' is the string, the frequency of h in this string is 2.
+
+s = input('enter the email')
+# term = input('what would like to search for')
+
+# counter = 0
+# for i in s:
+#   if i == term:
+#     counter += 1
+
+# print('frequency',counter)
+
+
+# Write a program which can remove a particular character from a string.
+# s = input('enter the string')
+# term = input('what would like to remove')
+
+# result = ''
+
+# for i in s:
+#   if i != term:
+#     result = result + i
+
+# print(result)
+
+# Write a program that can check whether a given string is palindrome or not.
+# abba
+# malayalam
+
+# s = input('enter the string')
+# flag = True
+# for i in range(0,len(s)//2):
+#   if s[i] != s[len(s) - i -1]:
+#     flag = False
+#     print('Not a Palindrome')
+#     break
+
+# if flag:
+#   print('Palindrome')
+
+
+# s = input('enter the string')
+# L = []
+# temp = ''
+# for i in s:
+
+#   if i != ' ':
+#     temp = temp + i
+#   else:
+#     L.append(temp)
+#     temp = ''
+
+# L.append(temp)
+# print(L)
 
