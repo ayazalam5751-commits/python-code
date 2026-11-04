@@ -273,3 +273,18 @@ s = input('enter the email')
 # L.append(temp)
 # print(L)
 
+# editing with indexing
+# L[-1] = 500
+
+# editing with slicing
+# L[1:4] = [200,300,400]
+
+# print(L)
+# for i in range(6,0,-1):
+#     for j in range(i):
+#         print('*',end="")   
+#     print()
+
+# for i in range(5,0,-1):
+#     print(" "*(5-i),end=" ")
+#     print("* "*i)
