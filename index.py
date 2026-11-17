@@ -288,3 +288,30 @@ s = input('enter the email')
 # for i in range(5,0,-1):
 #     print(" "*(5-i),end=" ")
 #     print("* "*i)
+
+#----------ovject---------
+# class student:
+#     def __init__(self,name,marks):
+#         self.name=name
+#         self.marks = marks
+#     def compare(self,other):
+#         if self.marks>other.marks:
+#             print(f'{self.name} got higher than {other.name}')
+#         else:
+#             print(f'{other.name}did better than {self.name}')
+# s1=student('karan',8)
+# s2=student('Aditya',7)
+# s1.compare(s2)
+
+# class employee:
+#     org ='quadai'
+#     adress = 'patna'
+#     def register(self,name,mail,dept,salary):
+#         self.n=name
+#         self.mail=mail
+#         self.dept=dept
+#         self.salary=salary
+#         print(f'{self.n} registered succesfully')
+# e1=employee()
+# e1.register('nashit','ar@gmail.com','it',23213)
+# e1.org
