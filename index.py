@@ -315,3 +315,49 @@ s = input('enter the email')
 # e1=employee()
 # e1.register('nashit','ar@gmail.com','it',23213)
 # e1.org
+
+
+# ---------------garbage collection-----------
+# data =[10,23,45,67]
+# data = None # data trace --output none so thee is no need of your original data and value
+# print(data)
+
+# a =[]
+# b =[1]
+# a.append(b)
+# b.append(a)
+# print(a)
+# print(b)# circular refrence ki baat ho rhi hai ... ka mtlbv 
+# del a
+# del b
+# print(a)
+# print(b)
+
+# l =[1,2,3,4]
+# l.append(9)
+# print(l)
+
+# L = [1,2,3]
+# print(L.append(4))
+# print(L)
+
+# import sys
+# print(sys.argv)
+# print(sys.orig_argv)
+# print(sys.version_info)
+# print(sys.version_info.major)
+# print(sys.version_info.minor)
+# print(sys.version_info.micro)
+# print(sys.executable)
+# print(sys.platform)
+# print(sys.prefix)
+# print(sys.modules .keys())
+
+# -------------------------garbage collection -------------------------
+import sys
+a=[1,2,3,4,5]
+print(sys.getrefcount(a))
+y =a
+print(sys.getrefcount(y))
+z=y
+print(sys.getrefcount(z))
